@@ -29,7 +29,3 @@ The transcript is copied to your clipboard and downloaded as a `.txt` file.
 - **"Open the transcript panel first" while the panel is open:** YouTube probably renamed its page elements. Right-click a transcript line, choose **Inspect**, find the new element and class names, and update `ytd-transcript-segment-renderer`, `.segment-timestamp` and `.segment-text` in the code.
 - **No "Show transcript" button:** the video has no captions, not even auto-generated ones. There's nothing to grab.
 - **Clipboard copy fails silently:** some browsers block clipboard writes from bookmarklets. The `.txt` download still works.
-
-```bash
-yt-dlp --skip-download --write-auto-subs --sub-langs en --sub-format vtt "VIDEO_OR_PLAYLIST_URL"
-```
