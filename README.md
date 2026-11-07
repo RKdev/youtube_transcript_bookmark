@@ -2,7 +2,7 @@
 
 ## K.I.S.S. ##
 
-It's silly to me that there are services on the internet for pulling transcripts from youtube videos when I can clearly see it just sitting there in the DOM. So here's a thing. 
+It's silly to me that there are services on the internet for pulling transcripts from youtube videos when I can clearly see the thing just sitting there in the DOM. So here's a thing. 
 
 Grab a YouTube video's transcript straight from the page. It works for any video that has a **Show transcript** button: no service, no daily limits, no AI. It copies the text to your clipboard and downloads it as a `.txt` file named after the video.
 
